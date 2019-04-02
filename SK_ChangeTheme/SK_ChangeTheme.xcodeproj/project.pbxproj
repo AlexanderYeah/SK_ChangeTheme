@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		113C77B822533ED500F07B27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113C77B722533ED500F07B27 /* AppDelegate.swift */; };
+		113C77BA22533ED500F07B27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113C77B922533ED500F07B27 /* ViewController.swift */; };
+		113C77BD22533ED500F07B27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 113C77BB22533ED500F07B27 /* Main.storyboard */; };
+		113C77BF22533ED600F07B27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 113C77BE22533ED600F07B27 /* Assets.xcassets */; };
+		113C77C222533ED600F07B27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 113C77C022533ED600F07B27 /* LaunchScreen.storyboard */; };
+		113C77CD22533ED600F07B27 /* SK_ChangeThemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113C77CC22533ED600F07B27 /* SK_ChangeThemeTests.swift */; };
+		113C77D822533ED600F07B27 /* SK_ChangeThemeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113C77D722533ED600F07B27 /* SK_ChangeThemeUITests.swift */; };
+		113C77E622533F6200F07B27 /* theme1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 113C77E522533F6200F07B27 /* theme1.plist */; };
+		113C77E822533F7600F07B27 /* theme2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 113C77E722533F7600F07B27 /* theme2.plist */; };
+		113C77EA22533F8B00F07B27 /* theme3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 113C77E922533F8B00F07B27 /* theme3.plist */; };
+		113C77EC225342A800F07B27 /* MyTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113C77EB225342A800F07B27 /* MyTheme.swift */; };
+		113C77EF2253441D00F07B27 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113C77ED2253441D00F07B27 /* MyCell.swift */; };
+		113C77F02253441D00F07B27 /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 113C77EE2253441D00F07B27 /* MyCell.xib */; };
+		AD5107D7AA06A310BB2A79CA /* Pods_SK_ChangeTheme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946DE932365AD6DF5FD776E7 /* Pods_SK_ChangeTheme.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		113C77C922533ED600F07B27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 113C77AC22533ED400F07B27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 113C77B322533ED400F07B27;
+			remoteInfo = SK_ChangeTheme;
+		};
+		113C77D422533ED600F07B27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 113C77AC22533ED400F07B27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 113C77B322533ED400F07B27;
+			remoteInfo = SK_ChangeTheme;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		113C77B422533ED400F07B27 /* SK_ChangeTheme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SK_ChangeTheme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		113C77B722533ED500F07B27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		113C77B922533ED500F07B27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		113C77BC22533ED500F07B27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		113C77BE22533ED600F07B27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		113C77C122533ED600F07B27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		113C77C322533ED600F07B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		113C77C822533ED600F07B27 /* SK_ChangeThemeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SK_ChangeThemeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		113C77CC22533ED600F07B27 /* SK_ChangeThemeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SK_ChangeThemeTests.swift; sourceTree = "<group>"; };
+		113C77CE22533ED600F07B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		113C77D322533ED600F07B27 /* SK_ChangeThemeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SK_ChangeThemeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		113C77D722533ED600F07B27 /* SK_ChangeThemeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SK_ChangeThemeUITests.swift; sourceTree = "<group>"; };
+		113C77D922533ED600F07B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		113C77E522533F6200F07B27 /* theme1.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = theme1.plist; sourceTree = "<group>"; };
+		113C77E722533F7600F07B27 /* theme2.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = theme2.plist; sourceTree = "<group>"; };
+		113C77E922533F8B00F07B27 /* theme3.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = theme3.plist; sourceTree = "<group>"; };
+		113C77EB225342A800F07B27 /* MyTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTheme.swift; sourceTree = "<group>"; };
+		113C77ED2253441D00F07B27 /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		113C77EE2253441D00F07B27 /* MyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
+		217E92F236BE427F9A06266D /* Pods-SK_ChangeTheme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SK_ChangeTheme.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SK_ChangeTheme/Pods-SK_ChangeTheme.debug.xcconfig"; sourceTree = "<group>"; };
+		946DE932365AD6DF5FD776E7 /* Pods_SK_ChangeTheme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SK_ChangeTheme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A67DFEB3F9A27504D3A47766 /* Pods-SK_ChangeTheme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SK_ChangeTheme.release.xcconfig"; path = "Pods/Target Support Files/Pods-SK_ChangeTheme/Pods-SK_ChangeTheme.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		113C77B122533ED400F07B27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5107D7AA06A310BB2A79CA /* Pods_SK_ChangeTheme.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		113C77C522533ED600F07B27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		113C77D022533ED600F07B27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		113C77AB22533ED400F07B27 = {
+			isa = PBXGroup;
+			children = (
+				113C77B622533ED500F07B27 /* SK_ChangeTheme */,
+				113C77CB22533ED600F07B27 /* SK_ChangeThemeTests */,
+				113C77D622533ED600F07B27 /* SK_ChangeThemeUITests */,
+				113C77B522533ED400F07B27 /* Products */,
+				F5CCB429CBF25B4D69B4D797 /* Pods */,
+				CE5E6F655B9155EA4654AB2F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		113C77B522533ED400F07B27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				113C77B422533ED400F07B27 /* SK_ChangeTheme.app */,
+				113C77C822533ED600F07B27 /* SK_ChangeThemeTests.xctest */,
+				113C77D322533ED600F07B27 /* SK_ChangeThemeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		113C77B622533ED500F07B27 /* SK_ChangeTheme */ = {
+			isa = PBXGroup;
+			children = (
+				113C77B722533ED500F07B27 /* AppDelegate.swift */,
+				113C77B922533ED500F07B27 /* ViewController.swift */,
+				113C77ED2253441D00F07B27 /* MyCell.swift */,
+				113C77EE2253441D00F07B27 /* MyCell.xib */,
+				113C77EB225342A800F07B27 /* MyTheme.swift */,
+				113C77BB22533ED500F07B27 /* Main.storyboard */,
+				113C77BE22533ED600F07B27 /* Assets.xcassets */,
+				113C77C022533ED600F07B27 /* LaunchScreen.storyboard */,
+				113C77C322533ED600F07B27 /* Info.plist */,
+				113C77E522533F6200F07B27 /* theme1.plist */,
+				113C77E722533F7600F07B27 /* theme2.plist */,
+				113C77E922533F8B00F07B27 /* theme3.plist */,
+			);
+			path = SK_ChangeTheme;
+			sourceTree = "<group>";
+		};
+		113C77CB22533ED600F07B27 /* SK_ChangeThemeTests */ = {
+			isa = PBXGroup;
+			children = (
+				113C77CC22533ED600F07B27 /* SK_ChangeThemeTests.swift */,
+				113C77CE22533ED600F07B27 /* Info.plist */,
+			);
+			path = SK_ChangeThemeTests;
+			sourceTree = "<group>";
+		};
+		113C77D622533ED600F07B27 /* SK_ChangeThemeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				113C77D722533ED600F07B27 /* SK_ChangeThemeUITests.swift */,
+				113C77D922533ED600F07B27 /* Info.plist */,
+			);
+			path = SK_ChangeThemeUITests;
+			sourceTree = "<group>";
+		};
+		CE5E6F655B9155EA4654AB2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				946DE932365AD6DF5FD776E7 /* Pods_SK_ChangeTheme.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5CCB429CBF25B4D69B4D797 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				217E92F236BE427F9A06266D /* Pods-SK_ChangeTheme.debug.xcconfig */,
+				A67DFEB3F9A27504D3A47766 /* Pods-SK_ChangeTheme.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		113C77B322533ED400F07B27 /* SK_ChangeTheme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 113C77DC22533ED600F07B27 /* Build configuration list for PBXNativeTarget "SK_ChangeTheme" */;
+			buildPhases = (
+				83B6783B1B1B5AD515605D6A /* [CP] Check Pods Manifest.lock */,
+				113C77B022533ED400F07B27 /* Sources */,
+				113C77B122533ED400F07B27 /* Frameworks */,
+				113C77B222533ED400F07B27 /* Resources */,
+				54FE1FE27C15D78B4E21939B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SK_ChangeTheme;
+			productName = SK_ChangeTheme;
+			productReference = 113C77B422533ED400F07B27 /* SK_ChangeTheme.app */;
+			productType = "com.apple.product-type.application";
+		};
+		113C77C722533ED600F07B27 /* SK_ChangeThemeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 113C77DF22533ED600F07B27 /* Build configuration list for PBXNativeTarget "SK_ChangeThemeTests" */;
+			buildPhases = (
+				113C77C422533ED600F07B27 /* Sources */,
+				113C77C522533ED600F07B27 /* Frameworks */,
+				113C77C622533ED600F07B27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				113C77CA22533ED600F07B27 /* PBXTargetDependency */,
+			);
+			name = SK_ChangeThemeTests;
+			productName = SK_ChangeThemeTests;
+			productReference = 113C77C822533ED600F07B27 /* SK_ChangeThemeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		113C77D222533ED600F07B27 /* SK_ChangeThemeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 113C77E222533ED600F07B27 /* Build configuration list for PBXNativeTarget "SK_ChangeThemeUITests" */;
+			buildPhases = (
+				113C77CF22533ED600F07B27 /* Sources */,
+				113C77D022533ED600F07B27 /* Frameworks */,
+				113C77D122533ED600F07B27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				113C77D522533ED600F07B27 /* PBXTargetDependency */,
+			);
+			name = SK_ChangeThemeUITests;
+			productName = SK_ChangeThemeUITests;
+			productReference = 113C77D322533ED600F07B27 /* SK_ChangeThemeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		113C77AC22533ED400F07B27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = AlexanderYeah;
+				TargetAttributes = {
+					113C77B322533ED400F07B27 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					113C77C722533ED600F07B27 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 113C77B322533ED400F07B27;
+					};
+					113C77D222533ED600F07B27 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 113C77B322533ED400F07B27;
+					};
+				};
+			};
+			buildConfigurationList = 113C77AF22533ED400F07B27 /* Build configuration list for PBXProject "SK_ChangeTheme" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 113C77AB22533ED400F07B27;
+			productRefGroup = 113C77B522533ED400F07B27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				113C77B322533ED400F07B27 /* SK_ChangeTheme */,
+				113C77C722533ED600F07B27 /* SK_ChangeThemeTests */,
+				113C77D222533ED600F07B27 /* SK_ChangeThemeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		113C77B222533ED400F07B27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				113C77C222533ED600F07B27 /* LaunchScreen.storyboard in Resources */,
+				113C77BF22533ED600F07B27 /* Assets.xcassets in Resources */,
+				113C77E622533F6200F07B27 /* theme1.plist in Resources */,
+				113C77E822533F7600F07B27 /* theme2.plist in Resources */,
+				113C77F02253441D00F07B27 /* MyCell.xib in Resources */,
+				113C77EA22533F8B00F07B27 /* theme3.plist in Resources */,
+				113C77BD22533ED500F07B27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		113C77C622533ED600F07B27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		113C77D122533ED600F07B27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54FE1FE27C15D78B4E21939B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SK_ChangeTheme/Pods-SK_ChangeTheme-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftTheme/SwiftTheme.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftTheme.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SK_ChangeTheme/Pods-SK_ChangeTheme-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83B6783B1B1B5AD515605D6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SK_ChangeTheme-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		113C77B022533ED400F07B27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				113C77EC225342A800F07B27 /* MyTheme.swift in Sources */,
+				113C77EF2253441D00F07B27 /* MyCell.swift in Sources */,
+				113C77BA22533ED500F07B27 /* ViewController.swift in Sources */,
+				113C77B822533ED500F07B27 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		113C77C422533ED600F07B27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				113C77CD22533ED600F07B27 /* SK_ChangeThemeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		113C77CF22533ED600F07B27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				113C77D822533ED600F07B27 /* SK_ChangeThemeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		113C77CA22533ED600F07B27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 113C77B322533ED400F07B27 /* SK_ChangeTheme */;
+			targetProxy = 113C77C922533ED600F07B27 /* PBXContainerItemProxy */;
+		};
+		113C77D522533ED600F07B27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 113C77B322533ED400F07B27 /* SK_ChangeTheme */;
+			targetProxy = 113C77D422533ED600F07B27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		113C77BB22533ED500F07B27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				113C77BC22533ED500F07B27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		113C77C022533ED600F07B27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				113C77C122533ED600F07B27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		113C77DA22533ED600F07B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		113C77DB22533ED600F07B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		113C77DD22533ED600F07B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 217E92F236BE427F9A06266D /* Pods-SK_ChangeTheme.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SK_ChangeTheme/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AlexanderYeah.SK-ChangeTheme";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		113C77DE22533ED600F07B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A67DFEB3F9A27504D3A47766 /* Pods-SK_ChangeTheme.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SK_ChangeTheme/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AlexanderYeah.SK-ChangeTheme";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		113C77E022533ED600F07B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SK_ChangeThemeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AlexanderYeah.SK-ChangeThemeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SK_ChangeTheme.app/SK_ChangeTheme";
+			};
+			name = Debug;
+		};
+		113C77E122533ED600F07B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SK_ChangeThemeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AlexanderYeah.SK-ChangeThemeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SK_ChangeTheme.app/SK_ChangeTheme";
+			};
+			name = Release;
+		};
+		113C77E322533ED600F07B27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SK_ChangeThemeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AlexanderYeah.SK-ChangeThemeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SK_ChangeTheme;
+			};
+			name = Debug;
+		};
+		113C77E422533ED600F07B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SK_ChangeThemeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AlexanderYeah.SK-ChangeThemeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SK_ChangeTheme;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		113C77AF22533ED400F07B27 /* Build configuration list for PBXProject "SK_ChangeTheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				113C77DA22533ED600F07B27 /* Debug */,
+				113C77DB22533ED600F07B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		113C77DC22533ED600F07B27 /* Build configuration list for PBXNativeTarget "SK_ChangeTheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				113C77DD22533ED600F07B27 /* Debug */,
+				113C77DE22533ED600F07B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		113C77DF22533ED600F07B27 /* Build configuration list for PBXNativeTarget "SK_ChangeThemeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				113C77E022533ED600F07B27 /* Debug */,
+				113C77E122533ED600F07B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		113C77E222533ED600F07B27 /* Build configuration list for PBXNativeTarget "SK_ChangeThemeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				113C77E322533ED600F07B27 /* Debug */,
+				113C77E422533ED600F07B27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 113C77AC22533ED400F07B27 /* Project object */;
+}

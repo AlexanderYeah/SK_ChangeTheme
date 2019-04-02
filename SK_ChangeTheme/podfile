@@ -1,0 +1,6 @@
+target "SK_ChangeTheme"  do
+use_frameworks!
+ 
+pod 'SwiftTheme'
+
+end
